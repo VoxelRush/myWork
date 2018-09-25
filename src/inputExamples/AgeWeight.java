@@ -10,7 +10,7 @@ public class AgeWeight {
 		int age = 100;
 		int weight = 100;
 		Scanner input = new Scanner(System.in);
-		System.out.println("What is your age and weight?");
+		System.out.println("What is your age and weight, in this order?");
 		age = input.nextInt();
 		weight = input.nextInt();
 		System.out.println("Your age is "+ age + " and your weight is " + weight + " lb" );

@@ -12,7 +12,7 @@ public class areaCircle {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Radius of the Circle?");
 		radius = input.nextInt();
-		System.out.println("The area of the circle is" + radius*radius*pieet);
+		System.out.println("The area of the circle is " + radius*radius*pieet);
 		input.close();
 	}
 

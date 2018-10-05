@@ -18,7 +18,7 @@ public class LockerCombination {
 		number2 = input.nextInt();
 		System.out.println("Number 3?");
 		number3 = input.nextInt();
-		System.out.println( number1 + number1 + "-" + number2 + number2 + "-"+ number3 + number3 +" is the wrong number. "+ "The 'HOMEWORK' file access has been denied ");
+		System.out.println( number1 +""+ number1 + "-" + number2 + number2 + "-"+ number3 + number3 +" is the wrong number. "+ "The 'HOMEWORK' file access has been denied ");
 		input.close();
 		
 		

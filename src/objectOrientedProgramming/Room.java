@@ -13,23 +13,21 @@ public class Room {
 		height = input.nextInt();
 		length = input.nextInt();
 		int area = length*height;
+		System.out.println("The area of the room is " + area);
 		
 		
 	}
 	
-
-	private int nextInt() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 	public void areaWithDoor() {
 		Scanner input = new Scanner(System.in);
 		int length = 1;
 		int height = 1;
 		System.out.println("What is the height and length of the room?");
-		height = nextInt();
-		length = nextInt();
-		
+		height = input.nextInt();
+		length = input.nextInt();
+		int doorlength = 1;
+		int doorheight = 1;
+		System.out.println("What is the height and length of the door?");
 	}
 	
 	

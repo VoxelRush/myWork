@@ -7,6 +7,7 @@ public class RoomTest{
 		
 		Room bob = new Room();
 		bob.area();
+		bob.areaWithDoor();
 		
 	}
 

@@ -1,12 +1,13 @@
 package objectOrientedProgramming;
 
-public class TEST {
+public class NumbersTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		House Bob = new House();
-		Bob.House();
+		Numbers bob = new Numbers();
+		bob.sayNumber(3);
+		bob.sayNumberPlus2(3);
+		bob.saySum(num, 2);
 		
 	}
-
 }

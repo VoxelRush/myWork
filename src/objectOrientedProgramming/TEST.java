@@ -7,8 +7,8 @@ public class TEST {
 		Employee Bob = new Employee ();
 		Bob.setWage(4);
 		Bob.setExperience(4);
-		System.out.println(Bob.getWage());
+		System.out.println(Bob.getWage()); //Gives the wage
 		Bob.raise();
-		System.out.println(Bob.getWage());
+		System.out.println(Bob.getWage()); //Gives the raise
 	}
 }

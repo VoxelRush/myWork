@@ -13,12 +13,15 @@ public class GPA {
 		GPA = input.nextDouble();
 		grade = input.nextDouble();
 		
-			if (GPA == 4.0 || grade == 4);
+			if (GPA == 4.0 || grade == 4) 
+			{
 				System.out.println("You work!");
+			}
 			else
-				System.out.println("OOF");
-				
+				{System.out.println("OOF");
+				}
 		
 	
 
+}
 }

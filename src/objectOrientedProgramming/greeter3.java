@@ -1,9 +1,9 @@
 package objectOrientedProgramming;
 
-public class greeter {
+public class greeter3 {
 
 	private int age;
-	public greeter() {
+	public greeter3() {
 		age = -999;
 	}
 	public int getAge()

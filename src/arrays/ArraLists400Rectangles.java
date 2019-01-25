@@ -15,6 +15,9 @@ public class ArraLists400Rectangles {
 			int j =  min + (int)(Math.random()*(max-min+1));
 			int w =  min + (int)(Math.random()*(max-min+1));
 			List.add(new Rectangle(j,w));
+			
+		}
+		for (int x = 399; x >= 0; x--) {
 			System.out.println(List.get(x).area());
 		}
 		

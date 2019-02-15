@@ -16,7 +16,7 @@ public class HardDrive {
 	}
 	public void addfile(double filesize) throws ArithmeticException { 
 		if(filesize>freespace) {
-			throw new ArithmeticException("Error");
+			throw new ArithmeticException("Error, can't exceed space");
 		}
 		else{ 
 			file.add(filesize);
@@ -27,8 +27,19 @@ public class HardDrive {
 		file.remove(x);
 	}
 	public boolean isFull() {
-		if(freespace = 0) 
+		if(freespace == 0) {
+			System.out.println("The Hard Drive is Full");
+			return true;
 		}
-		
+		else
+		return false;
+	}
+	public boolean isEmpty() {
+		if(freespace == capacity) {
+			System.out.println("The Hard Drive is Empty");
+			return true;
+		}
+		else
+		return false;
 	}
 }

@@ -3,7 +3,7 @@ package afterUnits;
 import java.util.ArrayList;
 
 public class HardDrive {
-	
+//There might be an error with the add file method, ask someone
 	private String name;
 	private double capacity;
 	private double freespace;

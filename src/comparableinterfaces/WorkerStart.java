@@ -1,6 +1,6 @@
 package comparableinterfaces;
 
-public class WorkerStart {
+public class WorkerStart implements Comparable <WorkerStart>{
 	private int hours;
 	private double rate;
 
@@ -38,4 +38,16 @@ public class WorkerStart {
 	public void raise(double amount){
 			rate = rate + amount;
 	}
+	
+	public int compareTo(WorkerStart xeme) {
+		if(Math.abs(rate - xeme.getRate()) < 0.001)
+			return 0;
+		if(rate < xeme.getRate())
+			return -1;
+		return 1;
+	}
+	public String toString() {
+		return "Hours = " + hours + " and rate = " + rate;
+	}
 }
+

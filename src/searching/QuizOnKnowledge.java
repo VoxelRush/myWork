@@ -18,9 +18,15 @@ public class QuizOnKnowledge {
 			int result2 = min + generator.nextInt(max - min + 1);
 			Shapes.add(new Rectangle(result1,result2));
 		}
-		for (int y = 0; y < 100; y++) {
 			
+		for(Rectangle oneBox:Shapes) {
+				if (oneBox.getWidth()==10 && oneBox.getLength()==7) 
+					count++;
+		}
+		
+		
+		System.out.println(count + " boxes have a width of 10 and length of 7");
+	
 		}
 	}
 
-}

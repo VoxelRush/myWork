@@ -12,5 +12,6 @@ public class Book{
 		title = "Random Book";
 		pages = 69;
 	}
+	
 }
 

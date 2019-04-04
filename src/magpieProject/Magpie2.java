@@ -50,7 +50,7 @@ public class Magpie2
 			response = "pets are not people and therefore your concerns are invalid";
 					
 		}
-		else if(statement.indexOf(" ")>=0 || statement.indexOf("")>=0){
+		if(statement.indexOf(" ")>=0){
 		
 			response = "gay";
 		}

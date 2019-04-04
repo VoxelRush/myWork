@@ -1,6 +1,6 @@
 package comparableinterfaces;
 
-public class Outfit implements Clothingitem{
+public class Outfit implements ClothingItem{
 	private shoes shoes;
 	private pants pants;
 	private tops tops;
@@ -14,5 +14,6 @@ public class Outfit implements Clothingitem{
 		String actualpant = pants.getDescription();
 		String actualshoe = shoes.getDescription();
 		String actualtop = tops.getDescription();
+		return actualpant;
 	}
 }
